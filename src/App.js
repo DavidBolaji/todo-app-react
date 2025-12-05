@@ -1,6 +1,6 @@
 
-import './App.css';
-import './components/TodoStyles.css'
+
+
 import TodoList from './components/TodoList';
 import TodoInput from './components/TodoInput';
 import TodoActions from './components/TodoActions';
@@ -10,14 +10,14 @@ function App() {
 
   return (
     <TodoProvider>
-      <div className="App">
+      <div className="m-2.5">
         <h1>Todo Application</h1>
         <TodoInput />
         <TodoActions />
         <TodoList />
       </div>
-    </TodoProvider>
-  );
+    </TodoProvider>);
+
 }
 
 export default App;
